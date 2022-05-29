@@ -1,5 +1,5 @@
 import ItemDTO from "../dto/item.dto";
-import MeliItemDTO from "../dto/meliItem.dto";
+import MeliItemDTO from "../../MeliItem/dto/meli-item.dto";
 
 export default class ItemMapper {
     static fromMeliItem(meliItem : MeliItemDTO) : ItemDTO{

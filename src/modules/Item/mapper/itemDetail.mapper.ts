@@ -1,6 +1,6 @@
 import { Author } from "src/constants/author.constant";
 import ItemDetailDTO from "../dto/itemDetail.dto";
-import MeliItemDetailDTO from "../dto/meliItemDetail.dto";
+import MeliItemDetailDTO from "../../MeliItem/dto/meli-item-detail.dto";
 
 export default class ItemDetailMapper{
     static fromMeliItem(meliItemDetail: MeliItemDetailDTO) : ItemDetailDTO{

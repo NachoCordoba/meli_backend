@@ -1,5 +1,5 @@
 import { ApiProperty } from "@nestjs/swagger";
-import AuthorDTO from "./author.dto";
+import AuthorDTO from "../../Author/author.dto";
 import ItemDTO from "./item.dto";
 
 class ItemDetailDTO extends ItemDTO {

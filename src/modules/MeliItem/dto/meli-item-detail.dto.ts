@@ -1,4 +1,4 @@
-import MeliItemDTO from "./meliItem.dto";
+import MeliItemDTO from "./meli-item.dto";
 
 export default class MeliItemDetailDTO extends MeliItemDTO{ 
     sold_quantity: number;
